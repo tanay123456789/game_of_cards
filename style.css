@@ -11,5 +11,15 @@ html,body{
 #main{
     height: 100%;
     width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
+.card{
+    height: 300px;
+    width: 230px;
+    background-color: antiquewhite;
+    border:1px solid salmon;
+}
