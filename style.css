@@ -11,15 +11,37 @@ html,body{
 #main{
     height: 100%;
     width:100%;
-    display: flex;
+    /*display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
+    /*If you not write postion absolute then you caan write above to center card to between but if you want
+    cards to go behind one another then psotion:absolute is must*/
 
 }
 
 .card{
-    height: 300px;
+    position: absolute;/*It will not care about its parents*/
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:300px;
     width: 230px;
     background-color: antiquewhite;
     border:1px solid salmon;
+}
+
+#card2{
+    rotate:-8deg;
+    background-color: aqua;
+}
+
+#card3{
+    rotate:-16deg;
+    background-color: blue;
+
+}
+
+#card4{
+    rotate:-24deg;
+    background-color: brown;
 }
