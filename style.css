@@ -54,3 +54,9 @@ html,body{
     rotate:-24deg;
     background-color: brown;
 }
+
+img{
+    height: 100%;
+    width:100%;
+    object-fit:cover;
+}
