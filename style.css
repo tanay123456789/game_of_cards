@@ -61,3 +61,20 @@ img{
     width:100%;
     object-fit:cover;/*to cover the image inside the card component*/
 }
+
+#card2:hover{
+
+    z-index:4 ;
+    
+
+}
+
+#card3:hover{
+    z-index:4;
+
+}
+
+#card4:hover{
+    z-index: 4;;
+
+}
